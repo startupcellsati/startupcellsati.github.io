@@ -26,12 +26,11 @@
   <script>
 	
 	<!--REPLACE THIS-->
-	const latestlink = "404.html";
-	const fallbackelement = document.getElementById("fallback");
-	fallbackelement.href = latestlink;
-    // Change this to your video link
+	const page404 = "404.html";
     const youtubeUrl = "https://www.youtube.com/live/OPeE7R87ZI4";
-    
+	const fallbackelement = document.getElementById("fallback");
+	fallbackelement.href = youtubeUrl;
+    // Change this to your video link
     // Use replace() so the redirect doesn't create a history entry
     location.replace(youtubeUrl);
   </script>
